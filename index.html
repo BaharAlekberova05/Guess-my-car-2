@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Car Game</title>
+</head>
+<body class="p-5">
+    <div id="container" class="flex flex-col">
+        <div class="flex items-center justify-center"><h1 class="font-bold text-lg">🚗 Guess My Car</h1></div>
+        <div class="grid grid-cols-3 gap-4 p-5 mb-5">
+            <div class="questionMark cursor-pointer">
+                <img src="./images/question.jpg" class="size-full bg-cover object-cover" id="image">
+            </div>
+
+            <div class="questionMark cursor-pointer">
+                <img src="./images/question.jpg" class="size-full bg-cover object-cover" id="image">
+            </div>
+
+            <div class="questionMark cursor-pointer">
+                <img src="./images/question.jpg" class="size-full bg-cover object-cover" id="image">
+            </div>
+
+            <div class="questionMark cursor-pointer">
+                <img src="./images/question.jpg" class="size-full bg-cover object-cover" id="image">
+            </div>
+
+            <div class="questionMark cursor-pointer">
+                <img src="./images/question.jpg" class="size-full bg-cover object-cover" id="image">
+            </div>
+
+            <div class="questionMark cursor-pointer">
+                <img src="./images/question.jpg" class="size-full bg-cover object-cover" id="image">
+            </div>
+        </div>
+
+        <div class="flex items-center justify-center">
+            <span id="randomCar" class="border border-blue-500 p-2"></span>
+        </div>
+
+        <div class="flex items-center justify-center mt-3">
+            <p>Score : 
+                <span id="scoreElement">0</span>
+            </p>
+        </div>
+
+        <div class="flex items-center justify-center mt-3">
+            <button id="btnAgain" class="bg-blue-500 text-white p-2">Again</button>
+        </div>
+    </div>
+    
+
+   
+
+    <script src="./script.js"></script>
+</body>
+</html>
